@@ -1,0 +1,55 @@
+.nav {
+  display: flex;
+  padding: 10px 10px;
+  flex-direction: row;
+  justify-content: space-between; /* This is the key line */
+  align-items: center; /* optional: nicely center vertically */
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px; /* optional: controls spacing between links */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333333;
+  font-size: 0.9rem;
+}
+
+.extra-links {
+  display: flex;
+  gap: 30px;
+  padding-right: 30px;
+}
+
+.extra-nav-link {
+  text-decoration: none;
+  color: #333333;
+  font-size: 16px;
+}
+
+/* hamburger menu */
+.hamburger-menu {
+  display: none;
+}
+
+.show-hamburger-menu-links {
+  display: block;
+  position: absolute; /*ensures that it doesn't drag down the extra links when it displays */
+}
+
+.hide-hamburger-menu-links {
+  display: none;
+}
+
+/* media queries */
+@media only screen and (max-width: 600px) {
+  .hamburger-menu {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+  }
+}
