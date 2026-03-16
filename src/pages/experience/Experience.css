@@ -1,0 +1,50 @@
+.experience h5 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: oklch(0.141 0.005 285.823);
+}
+
+.experience h6 {
+  font-size: 2rem;
+  font-weight: bold;
+
+  color: oklch(0.552 0.016 285.938);
+}
+
+.experience {
+  width: 100%;
+}
+
+.experience p {
+  text-align: justify;
+}
+
+.timeline-with-icons {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+}
+
+.timeline-with-icons .timeline-item {
+  position: relative;
+}
+
+.timeline-with-icons .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline-with-icons .timeline-icon {
+  position: absolute;
+  left: -48px;
+  background-color: hsl(217, 88.2%, 90%);
+  color: hsl(217, 88.8%, 35.1%);
+  border-radius: 50%;
+  height: 31px;
+  width: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 25px;
+}

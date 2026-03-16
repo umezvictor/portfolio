@@ -1,20 +1,29 @@
-.about h5 {
+.badge-lg {
+  font-size: 1.1rem;
+  padding: 0.6em 1em;
+  font-weight: 500;
+}
+.skill-icon {
+  padding-right: 30px;
+}
+
+.skill h5 {
   font-size: 2.5rem;
   font-weight: bold;
   color: oklch(0.141 0.005 285.823);
 }
 
-.about h6 {
+.skill h6 {
   font-size: 2rem;
   font-weight: bold;
 
   color: oklch(0.552 0.016 285.938);
 }
 
-.about {
+.skill {
   width: 100%;
 }
 
-.about p {
+.skill p {
   text-align: justify;
 }
