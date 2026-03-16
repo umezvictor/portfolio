@@ -8,9 +8,6 @@ type GithubStatsProps = {
 function Stats({ username = "umezvictor" }: GithubStatsProps) {
   return (
     <>
-      <div className="contact">
-        <h5>Stats</h5>
-      </div>
       <section className="ghSection" id="github-stats">
         <h2 className="ghTitle">GitHub Stats</h2>
         <p className="ghSubtitle">
