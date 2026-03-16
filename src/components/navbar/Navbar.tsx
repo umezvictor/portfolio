@@ -83,9 +83,6 @@ function Navbar() {
         </div>
 
         <div className="extra-links">
-          <a href="#signup" className="extra-nav-link">
-            <i className="bi bi-moon"></i>
-          </a>
           <a href="https://github.com/umezvictor" className="extra-nav-link">
             <i className="bi bi-github"></i>
           </a>

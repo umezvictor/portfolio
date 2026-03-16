@@ -3,6 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import Sidebar from "./components/sidebar/Sidebar";
 import "./App.css";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
