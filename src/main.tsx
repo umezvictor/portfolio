@@ -13,6 +13,9 @@ import Projects from "./pages/projects/Project.tsx";
 import ErrorPage from "./pages/ErrorPage.tsx";
 import Skills from "./pages/skills/Skills.tsx";
 import Experience from "./pages/experience/Experience.tsx";
+import Education from "./pages/education/Education.tsx";
+import Contact from "./pages/contact/Contact.tsx";
+import Stats from "./pages/stats/Stats.tsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,6 +25,9 @@ const router = createBrowserRouter(
       <Route path="/projects" element={<Projects />} />
       <Route path="/skills" element={<Skills />} />
       <Route path="/experience" element={<Experience />} />
+      <Route path="/education" element={<Education />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/stats" element={<Stats />} />
     </Route>,
   ),
 );

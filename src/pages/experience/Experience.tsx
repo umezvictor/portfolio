@@ -43,7 +43,7 @@ function Experience() {
 
           <li className="timeline-item mb-5">
             <span className="timeline-icon">
-              <i className="fas fa-hand-holding-usd text-primary fa-sm fa-fw"></i>
+              <i className="fa-solid fa-briefcase text-primary fa-sm fa-fw"></i>
             </span>
             <h5 className="fw-bold">Senior Software Engineer -Toyin Group</h5>
             <p className="text-muted mb-2 fw-bold">19 March 2020</p>
@@ -56,7 +56,7 @@ function Experience() {
 
           <li className="timeline-item mb-5">
             <span className="timeline-icon">
-              <i className="fas fa-users text-primary fa-sm fa-fw"></i>
+              <i className="fa-solid fa-briefcase text-primary fa-sm fa-fw"></i>
             </span>
             <h5 className="fw-bold">
               Senior Software Developer - Optisource Technology
@@ -73,7 +73,7 @@ function Experience() {
 
           <li className="timeline-item mb-5">
             <span className="timeline-icon">
-              <i className="fas fa-money-bill-wave text-primary fa-sm fa-fw"></i>
+              <i className="fa-solid fa-briefcase text-primary fa-sm fa-fw"></i>
             </span>
             <h5 className="fw-bold">
               Software Developer - Greenwich Registrars
@@ -89,7 +89,7 @@ function Experience() {
 
           <li className="timeline-item mb-5">
             <span className="timeline-icon">
-              <i className="fas fa-money-bill-wave text-primary fa-sm fa-fw"></i>
+              <i className="fa-solid fa-briefcase text-primary fa-sm fa-fw"></i>
             </span>
             <h5 className="fw-bold">
               Software Developer - SterlingPro Business Applications
@@ -105,7 +105,7 @@ function Experience() {
 
           <li className="timeline-item mb-5">
             <span className="timeline-icon">
-              <i className="fas fa-money-bill-wave text-primary fa-sm fa-fw"></i>
+              <i className="fa-solid fa-briefcase text-primary fa-sm fa-fw"></i>
             </span>
             <h5 className="fw-bold">
               Web Developer/Computer Analyst - Xthaffers Outsourcing

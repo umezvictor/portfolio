@@ -1,0 +1,30 @@
+.ghSection {
+  margin-top: 48px;
+}
+
+.ghTitle {
+  font-size: 56px;
+  line-height: 1.05;
+  font-weight: 800;
+  margin: 0 0 16px;
+  color: #0b0f19;
+}
+
+.ghSubtitle {
+  margin: 0 0 24px;
+  color: #6b7280;
+  font-size: 18px;
+}
+
+.ghCard {
+  border: 1px solid #eef2f7;
+  border-radius: 14px;
+  background: #fff;
+  padding: 18px;
+  overflow-x: auto;
+}
+
+/* Keep the calendar from squishing on small screens */
+.ghCard > * {
+  min-width: 900px;
+}

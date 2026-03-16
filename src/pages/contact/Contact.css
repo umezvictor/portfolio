@@ -1,0 +1,34 @@
+.contact h5 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: oklch(0.141 0.005 285.823);
+}
+
+.contact h6 {
+  font-size: 2rem;
+  font-weight: bold;
+
+  color: oklch(0.552 0.016 285.938);
+}
+
+.contact {
+  width: 100%;
+}
+
+.contact p {
+  text-align: justify;
+}
+
+.contact .contact-details {
+  display: flex;
+  text-decoration: none;
+}
+
+.contact .contact-details a {
+  text-decoration: none;
+  color: black;
+}
+
+.icon-color {
+  color: #0a66c2;
+}
